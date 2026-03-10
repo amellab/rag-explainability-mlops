@@ -164,7 +164,6 @@ Local development is split into two environments depending on the purpose of the
 (1) Research explainability workflow  
 (2) AWS based production pipeline  
 
-
 ### 8-1. Local Explainability Environment (Research Mode)
 
 This environment runs the FAISS-based retrieval pipeline used in the paper.
@@ -203,8 +202,6 @@ streamlit run mlops_dashboard/app.py
 - CloudWatch metrics emission
 - ECS-compatible UI layout
 
-
-
 ## 9. CI/CD Pipeline (GitHub Actions → AWS ECS Fargate)
 
 <img width="996" height="140" alt="Image" src="https://github.com/user-attachments/assets/ea440528-ac11-4e5a-bc7c-4db0b166cb3f" />
@@ -216,9 +213,10 @@ This pipeline builds the Docker image, pushes it to ECR, updates the ECS service
 ## Supplementary: Explainability and Evaluation Resources
 
 ### S1. Research Publication Status
-- **Title**: Explainability Analysis of RAG Pipeline  
-- **Status**: *Published on arXiv as first author (January 2026)*  
-- **Includes**: embedding similarity and variance analysis, retrieval stability and drift evaluation, generation robustness and length analysis, and pipeline level explainability of RAG behavior
+- **Title**: Explainability Analysis of Retrieval-Driven Behavior in RAG Pipelines
+- **Status**: Published as a Preprint on **Zenodo** (February 2026)
+- **Identifier[DOI]**: : 10.5281/zenodo.18945160
+- **Includes**: Embedding similarity and variance analysis, retrieval stability and drift evaluation, generation robustness and length analysis, and pipeline-level explainability of RAG behavior.
 
 
 ### S2. Full Explainability Reports & Notebooks
